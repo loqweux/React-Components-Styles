@@ -15,7 +15,6 @@ import responsive from "../../assets/Responsive.png";
 import data from "./data.json";
 import "./Main.scss";
 
-// Объект, чтобы сопоставить идентификаторы с импортированными изображениями
 const images = {
   autoLayout,
   variants,
