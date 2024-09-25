@@ -1,0 +1,40 @@
+{
+  "processSteps": [
+    {
+      "id": "autoLayout",
+      "title": "Auto Layout",
+      "color": "yellow",
+      "description": "Sed do eiusmod tempor incididunt ut consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore"
+    },
+    {
+      "id": "variants",
+      "title": "Variants",
+      "color": "red",
+      "description": "Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+    },
+    {
+      "id": "components",
+      "title": "Components",
+      "color": "purple",
+      "description": "Dor sum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore ma iusmod"
+    },
+    {
+      "id": "atomicUX",
+      "title": "Atomic Design",
+      "color": "green",
+      "description": "Adipisicing elit, orem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt ut labore et dolore magna"
+    },
+    {
+      "id": "animated",
+      "title": "Animated",
+      "color": "blue",
+      "description": "Morem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+    },
+    {
+      "id": "responsive",
+      "title": "Responsive",
+      "color": "magenta",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+    }
+  ]
+}

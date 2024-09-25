@@ -1,0 +1,108 @@
+header {
+  background-image: url(../../assets/bg-top.webp);
+  font-family: Poppins;
+  margin-bottom: 200px;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    padding-bottom: 200px;
+    a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      margin: 30px;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0.75px;
+      text-align: left;
+      &:last-child {
+        margin: 0px;
+        color: #ffd703;
+        border: 2px solid #ffd703;
+        border-radius: 30px;
+        padding: 12px 40px;
+      }
+    }
+  }
+  .title-text {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 200px;
+    h1 {
+      color: #f4f4f4;
+      max-width: 900px;
+      font-size: 106px;
+      font-weight: 400;
+      line-height: 137.8px;
+      margin-bottom: 20px;
+    }
+    p {
+      max-width: 700px;
+      color: #cefffd;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 36px;
+      margin-bottom: 50px;
+    }
+    button {
+      background-color: #ffd703;
+      border: none;
+      text-transform: uppercase;
+      border-radius: 30px;
+      padding: 16px 72px;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 33px;
+      text-align: center;
+    }
+  }
+  .how2-works {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 200px;
+    h2 {
+      color: #f4f4f4;
+      font-size: 60px;
+      font-weight: 400;
+      line-height: 90px;
+      margin-bottom: 10px;
+    }
+    .wrapper-works {
+      display: flex;
+      justify-content: space-between;
+      .works-card {
+        display: flex;
+        flex-direction: column;
+        max-width: 450px;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        border-radius: 16px;
+        img {
+          width: 75px;
+          height: 80px;
+          margin-bottom: 15px;
+        }
+        h3 {
+          color: #f4f4f4;
+          font-size: 40px;
+          font-weight: 400;
+          line-height: 60px;
+          letter-spacing: 0.25px;
+          margin-bottom: 15px;
+        }
+        p {
+          color: #cefffd;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0.10000000149011612px;
+        }
+      }
+    }
+  }
+}

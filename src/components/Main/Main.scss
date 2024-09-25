@@ -1,0 +1,312 @@
+.title-why {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Poppins;
+  margin-bottom: 200px;
+  h4 {
+    color: #373737;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 90px;
+    margin-bottom: 50px;
+  }
+  .wrapper-why-love {
+    display: flex;
+    justify-content: space-between;
+    .love-card {
+      max-width: 450px;
+      .wrapper-love-icons {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        img {
+          padding-right: 20px;
+        }
+        h5 {
+          color: #373737;
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 48px;
+        }
+        p {
+          color: #3fc2bb;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 24px;
+        }
+      }
+      p {
+        color: #707070;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.10000000149011612px;
+      }
+    }
+  }
+}
+.graphic {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Poppins;
+  margin-bottom: 200px;
+  h6 {
+    color: #373737;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 90px;
+    margin-bottom: 20px;
+  }
+  p {
+    max-width: 770px;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    margin-bottom: 70px;
+  }
+  .wrapper-graphic-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+.design-process {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Poppins;
+  margin-bottom: 200px;
+  h1 {
+    color: #373737;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 90px;
+    margin-bottom: 100px;
+  }
+
+  img {
+    padding-right: 20px;
+  }
+
+  .wrapper-design-process {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    @media (max-width: 1186px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+    .box-process {
+      max-width: 480px;
+      display: flex;
+      align-items: center;
+
+      .text-box-process {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+          font-size: 40px;
+          font-weight: 400;
+          line-height: 60px;
+          letter-spacing: 0.25px;
+        }
+
+        p {
+          color: #707070;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0.10000000149011612px;
+        }
+
+        .yellow {
+          color: #ffd84e;
+        }
+
+        .red {
+          color: #fb6363;
+        }
+
+        .purple {
+          color: #a66df5;
+        }
+
+        .green {
+          color: #6dd6b0;
+        }
+
+        .blue {
+          color: #708cf0;
+        }
+
+        .magenta {
+          color: #a02e8e;
+        }
+      }
+    }
+  }
+}
+.enjoyProject {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  width: 80%;
+  margin: 0 auto;
+  font-family: Poppins;
+  background-image: url("../../assets/EnjoyProject.png");
+  background-size: cover;
+  background-position: center;
+  padding: 70px 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  .cardText {
+    max-width: 824px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px 70px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    h3 {
+      color: #373737;
+      font-size: 60px;
+      font-weight: 400;
+      line-height: 90px;
+    }
+    p {
+      color: #707070;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.10000000149011612px;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #ffd703;
+      border: none;
+      text-transform: uppercase;
+      border-radius: 30px;
+      padding: 12px 40px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+    }
+  }
+}
+.teamProject {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 200px;
+  font-family: Poppins;
+  margin-bottom: 200px;
+  h4 {
+    color: #373737;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 90px;
+  }
+  .wrapper-join {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    p {
+      max-width: 830px;
+      color: #707070;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.10000000149011612px;
+    }
+    button {
+      background-color: #ffd703;
+      border: none;
+      text-transform: uppercase;
+      border-radius: 30px;
+      padding: 16px 72px;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 33px;
+    }
+  }
+  .wrapper-mans {
+    display: flex;
+    justify-content: space-between;
+    .mans-card1 {
+      background-image: url("../../assets/Pieter.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 352px;
+      height: 434px;
+      .pieter {
+        margin: 0 auto;
+        border-radius: 30px 30px 0px 0px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 25px 80px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+      }
+    }
+    .mans-card2 {
+      background-image: url("../../assets/Loyd.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 352px;
+      height: 434px;
+      .loyd {
+        margin: 0 auto;
+        border-radius: 30px 30px 0px 0px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 25px 80px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+      }
+    }
+    .mans-card3 {
+      background-image: url("../../assets/Latte.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 352px;
+      height: 434px;
+      .latte {
+        margin: 0 auto;
+        border-radius: 30px 30px 0px 0px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 25px 80px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+      }
+    }
+    .mans-card4 {
+      background-image: url("../../assets/Cheese.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 352px;
+      height: 434px;
+      .cheese {
+        margin: 0 auto;
+        border-radius: 30px 30px 0px 0px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 25px 80px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+      }
+    }
+  }
+}
